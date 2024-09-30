@@ -1,0 +1,28 @@
+Explicação do que acontece quando se usa um valor fora dos limites: 
+
+Quando se atribui a uma variável um valor que esta fora do limite para o seu tipo, acontece 
+o chamado "overflow" ou "underflow", que é o fato de estar passando do limite suportado, em alguns
+casos, a depender do tipo de variável, aquele valor que esta fora do limite pode ser convertido 
+até mesmo para um número negativo, ou aquele valor pode ser alterado para que caiba dentro do limite.
+
+Explicação das variáveis no código "tabela de limites":
+
+char - Armazena caracteres ou números inteiros positivos ou negativos pequenos;
+
+unsigned char - Armazena caracteres ou números inteiros positivos;
+
+short int - É usado para armazenar inteiros positivos ou negativos, mas com tamanho reduzido;
+
+unsigned short int - É usado para armazenar inteiros positivos, mas com tamanho maior que o short int;
+
+int - É o padrão para armazenar inteiros, positivos ou negativos;
+
+unsigned int - É usado para armazenar inteiros, mas apenas positivos e com espaço maior que no int;
+
+long int - É usado para armazenar inteiros grandes, sendo positivos ou negativos;
+
+unsigned long int - É usado para inteiros grandes, mas apenas positivos, e com capacidade maior que o long int;
+
+long long int - É usado para armazenar inteiros ainda maiores, positivos ou negativos;
+
+unsigned long long int - É usado para armazenar inteiros muito grandes, mas apenas positivos, tendo maior capacidade que o long long int;
